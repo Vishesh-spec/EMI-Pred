@@ -1,0 +1,58 @@
+{
+  "best_model": "RandomForestClassifier",
+  "scaled_input": false,
+  "results": {
+    "LogisticRegression": {
+      "accuracy": 0.9343,
+      "precision": 0.9484077170575236,
+      "recall": 0.9343,
+      "f1_weighted": 0.937647132080156,
+      "roc_auc": 0.994190354855566,
+      "val_accuracy": 0.93475,
+      "val_f1_weighted": 0.9380049134887898,
+      "val_roc_auc": 0.9940887069257646,
+      "train_time_sec": 22.90887188911438,
+      "scaled_input": true,
+      "best_params": {
+        "C": 9.51714306409916
+      }
+    },
+    "RandomForestClassifier": {
+      "accuracy": 0.9974166666666666,
+      "precision": 0.9974234781435531,
+      "recall": 0.9974166666666666,
+      "f1_weighted": 0.9974090873601446,
+      "roc_auc": 0.9997738348490969,
+      "val_accuracy": 0.9975833333333334,
+      "val_f1_weighted": 0.997576555933616,
+      "val_roc_auc": 0.9997361477696936,
+      "train_time_sec": 131.67256355285645,
+      "scaled_input": false,
+      "best_params": {
+        "n_estimators": 150,
+        "max_depth": 12,
+        "min_samples_leaf": 20,
+        "max_features": "sqrt"
+      }
+    },
+    "XGBoostClassifier": {
+      "accuracy": 0.99635,
+      "precision": 0.9963792414004744,
+      "recall": 0.99635,
+      "f1_weighted": 0.9963588314053765,
+      "roc_auc": 0.999976145958463,
+      "val_accuracy": 0.99615,
+      "val_f1_weighted": 0.9961606181787072,
+      "val_roc_auc": 0.9999609608318536,
+      "train_time_sec": 46.748483180999756,
+      "scaled_input": false,
+      "best_params": {
+        "colsample_bytree": 0.981565812704725,
+        "learning_rate": 0.050155753168202866,
+        "max_depth": 6,
+        "n_estimators": 140,
+        "subsample": 0.8852444528883149
+      }
+    }
+  }
+}

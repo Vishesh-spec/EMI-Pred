@@ -1,0 +1,33 @@
+artifact_path: file:///C:/Users/acer/Desktop/EMI/EMIPredict_AI_Project_Updated/emipredict_package/scripts/mlruns/1/models/m-9cbe22aa26494dd0b4ef4dfbe5f70924/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.5.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.15.1
+model_id: m-9cbe22aa26494dd0b4ef4dfbe5f70924
+model_size_bytes: 16108
+model_uuid: m-9cbe22aa26494dd0b4ef4dfbe5f70924
+prompts: null
+run_id: 1cf87b02b174475b98499032ee0f8ad6
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: ndarray
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 52]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-08-17 13:34:15.172374'

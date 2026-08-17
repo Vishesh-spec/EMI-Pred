@@ -1,0 +1,77 @@
+artifact_path: file:///C:/Users/acer/Desktop/EMI/EMIPredict_AI_Project_Updated/emipredict_package/scripts/mlruns/1/models/m-34e2152702a341918ba5b528cca0a1a7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.5.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.15.1
+model_id: m-34e2152702a341918ba5b528cca0a1a7
+model_size_bytes: 102435926
+model_uuid: m-34e2152702a341918ba5b528cca0a1a7
+prompts: null
+run_id: b7813dd1c89b442e807737788b5b0195
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "monthly_salary", "required": true}, {"type": "double", "name": "years_of_employment",
+    "required": true}, {"type": "double", "name": "monthly_rent", "required": true},
+    {"type": "double", "name": "family_size", "required": true}, {"type": "double",
+    "name": "dependents", "required": true}, {"type": "double", "name": "school_fees",
+    "required": true}, {"type": "double", "name": "college_fees", "required": true},
+    {"type": "double", "name": "travel_expenses", "required": true}, {"type": "double",
+    "name": "groceries_utilities", "required": true}, {"type": "double", "name": "other_monthly_expenses",
+    "required": true}, {"type": "double", "name": "current_emi_amount", "required":
+    true}, {"type": "double", "name": "credit_score", "required": true}, {"type":
+    "double", "name": "bank_balance", "required": true}, {"type": "double", "name":
+    "emergency_fund", "required": true}, {"type": "double", "name": "requested_amount",
+    "required": true}, {"type": "double", "name": "requested_tenure", "required":
+    true}, {"type": "double", "name": "total_monthly_expenses", "required": true},
+    {"type": "double", "name": "disposable_income", "required": true}, {"type": "double",
+    "name": "debt_to_income_ratio", "required": true}, {"type": "double", "name":
+    "expense_to_income_ratio", "required": true}, {"type": "double", "name": "affordability_ratio",
+    "required": true}, {"type": "double", "name": "estimated_monthly_installment",
+    "required": true}, {"type": "double", "name": "savings_to_income_ratio", "required":
+    true}, {"type": "double", "name": "dependents_per_income", "required": true},
+    {"type": "double", "name": "credit_score_norm", "required": true}, {"type": "boolean",
+    "name": "gender_Female", "required": true}, {"type": "boolean", "name": "gender_Male",
+    "required": true}, {"type": "boolean", "name": "marital_status_Married", "required":
+    true}, {"type": "boolean", "name": "marital_status_Single", "required": true},
+    {"type": "boolean", "name": "education_Graduate", "required": true}, {"type":
+    "boolean", "name": "education_High School", "required": true}, {"type": "boolean",
+    "name": "education_Post Graduate", "required": true}, {"type": "boolean", "name":
+    "education_Professional", "required": true}, {"type": "boolean", "name": "employment_type_Government",
+    "required": true}, {"type": "boolean", "name": "employment_type_Private", "required":
+    true}, {"type": "boolean", "name": "employment_type_Self-employed", "required":
+    true}, {"type": "boolean", "name": "company_type_MNC", "required": true}, {"type":
+    "boolean", "name": "company_type_Not Applicable", "required": true}, {"type":
+    "boolean", "name": "company_type_Public Sector", "required": true}, {"type": "boolean",
+    "name": "company_type_SME", "required": true}, {"type": "boolean", "name": "company_type_Startup",
+    "required": true}, {"type": "boolean", "name": "house_type_Family", "required":
+    true}, {"type": "boolean", "name": "house_type_Own", "required": true}, {"type":
+    "boolean", "name": "house_type_Rented", "required": true}, {"type": "boolean",
+    "name": "existing_loans_No", "required": true}, {"type": "boolean", "name": "existing_loans_Yes",
+    "required": true}, {"type": "boolean", "name": "emi_scenario_E-commerce Shopping
+    EMI", "required": true}, {"type": "boolean", "name": "emi_scenario_Education EMI",
+    "required": true}, {"type": "boolean", "name": "emi_scenario_Home Appliances EMI",
+    "required": true}, {"type": "boolean", "name": "emi_scenario_Personal Loan EMI",
+    "required": true}, {"type": "boolean", "name": "emi_scenario_Vehicle EMI", "required":
+    true}]'
+  outputs: '[{"type": "integer", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-08-17 13:37:19.412900'

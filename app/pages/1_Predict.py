@@ -5,7 +5,8 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-from emipredict_package.app.feature_engineering import build_model_matrix
+from feature_engineering import build_model_matrix
+
 
 st.set_page_config(page_title="Predict — EMIPredict AI", page_icon="🔮", layout="wide")
 
